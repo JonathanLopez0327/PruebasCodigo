@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Eff</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    
+        <h2 class="title">Titulo de la pagina</h2>
+        
+        <section></section>
+        
+        <div class="container">
+            <h2>Otro titulo mas</h2>
+        
+            <p> TEXTO is a global gathering committed to beauty, sustainability and quality. It is a meeting point for Master artisans, activists, thinkers, creators and artists.
+            TEXTO creates a space for those who understand and value sustainability, personal identity, tradition and responsible consumption over the commercial tendencies based on unbridled consumption.
+            TEXTO focuses on people, on nature, our planet and society. The time is now, the new generations are the means. We aim to inspire them to apply the right actions and practices. Our goal is to bring together Masters and dreamers to inspire youth. TEXTO aims to inspire. TEXTO is a multicultural event presenting the most prestigious textile artists and creators, as well as the most committed activists in the world. </p>
+        </div>
+        
+<!--        script-->
+        
+        
+        <script>
+            
+            var section = document.querySelector('section');
+            window.addEventListener('scroll', function() {
+               var value = window.scrollY;
+                section.style.clipPath = "circle(" + value + "px at center)"
+            });
+        
+        </script>
+        
+    </body>
+    
+</html>
